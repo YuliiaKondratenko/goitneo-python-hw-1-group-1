@@ -27,6 +27,7 @@ def get_birthdays_per_week(users):
 
             birthdays[weekday_name].append(name)
 
+    # print day of the week and name
     for day, names in birthdays.items():
         print(f"{day}: {', '.join(names)}")
 
